@@ -7,29 +7,16 @@ SELECT
 	TO_char(cp.date_from, 'YYYY') AS YEAR,
 	cpib.name industry_branch,
 	cpc.name food_category,
-	cp.value food_price,
-	cpay.value avg_wage
-FROM czechia_price AS cp
-LEFT JOIN czechia_payroll AS cpay
+	avg(cp.value) as avg_food_price,
+	avg(cpay.value) avg_wage
+FROM czechia_payroll AS cpay 
+JOIN czechia_price AS cp 
 	ON date_part('year', cp.date_from) = cpay.payroll_year
-LEFT JOIN czechia_payroll_industry_branch AS cpib 
+JOIN czechia_payroll_industry_branch AS cpib 
 	ON cpay.industry_branch_code = cpib.code 
-LEFT JOIN czechia_price_category AS cpc 
+JOIN czechia_price_category AS cpc 
 	ON cpc.code = cp.category_code
 WHERE cpay.value_type_code = 5958
-
-
-
-
-
-
-
-
-
-
-
-	
-
-
+GROUP BY cp.date_from, cpib.name, cpc.name
 
 

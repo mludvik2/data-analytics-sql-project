@@ -9,4 +9,4 @@ FROM economies AS e
 LEFT JOIN countries AS c 
  	ON e.country = c.country
 WHERE continent = 'Europe'
- 	
+ 
