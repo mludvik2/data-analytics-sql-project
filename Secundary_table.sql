@@ -1,3 +1,4 @@
+CREATE TABLE IF NOT EXISTS t_Michaela_Papadimitriu_Ludvikova_project_SQL_secondary_final as
 SELECT 
 	c.continent,
 	e.country,
