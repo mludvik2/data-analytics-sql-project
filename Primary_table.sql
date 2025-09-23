@@ -3,12 +3,13 @@ FROM czechia_price AS cp
 WHERE date_part('year', cp.date_from) != date_part('year', cp.date_to)
 
 
-SELECT
+SELECT 
 	cpc.name food_category,
 	cp.value food_price,
 	cpib.name industry_branch,
 	cpay.value avg_wage,
-	TO_char(cp.date_from, 'DD.Month YYYY') date_from
+	cp.region_code region_code,
+	TO_char(cp.date_from, 'DD. MM. YYYY') date_from
 FROM czechia_price AS cp
 LEFT JOIN czechia_payroll AS cpay
 	ON date_part('year', cp.date_from) = cpay.payroll_year
