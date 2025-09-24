@@ -1,9 +1,16 @@
-SELECT *
-FROM czechia_payroll AS cpay
-JOIN czechia_payroll_industry_branch AS cpib 
-	ON cpay.industry_branch_code = cpib.code
-WHERE cp.value_type_code = 5958;
+SELECT 
+	tmplpspf.industry_branch,
+	YEAR,
+	round(avg(avg_wage::numeric), 2) AS Wage
+FROM t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf 
+GROUP BY YEAR,industry_branch
+ORDER BY YEAR, industry_branch
 
-
-JOIN czechia_price AS cp 
-	 On
+SELECT industry_branch,
+	tmplpspf.YEAR,
+	tmplpspf2.year,
+	tmplpspf2.avg_wage - tmplpspf.avg_wage AS wage_difference
+FROM t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf 
+JOIN t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf2
+	ON tmplpspf.industry_branch = tmplpspf2.industry_branch
+		AND tmplpspf.YEAR = tmplpspf2.YEAR -1;
