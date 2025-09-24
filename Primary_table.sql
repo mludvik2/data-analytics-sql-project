@@ -1,10 +1,11 @@
 SELECT *
 FROM czechia_price AS cp 
 WHERE date_part('year', cp.date_from) != date_part('year', cp.date_to)
+ 
 
-CREATE TABLE IF NOT EXISTS t_Michaeala_Papadimitriu_Ludvikova_project_SQL_primary_final AS 
+CREATE TABLE IF NOT EXISTS t_Michaeala_Papadimitriu_Ludvikova_project_SQL_primary_final as
 SELECT 
-	TO_char(cp.date_from, 'YYYY') AS YEAR,
+	cpay.payroll_year AS YEAR,
 	cpib.name industry_branch,
 	cpc.name food_category,
 	avg(cp.value) as avg_food_price,
@@ -17,6 +18,6 @@ JOIN czechia_payroll_industry_branch AS cpib
 JOIN czechia_price_category AS cpc 
 	ON cpc.code = cp.category_code
 WHERE cpay.value_type_code = 5958
-GROUP BY cp.date_from, cpib.name, cpc.name
+GROUP BY cpay.payroll_year, cpib.name, cpc.name
 
 
