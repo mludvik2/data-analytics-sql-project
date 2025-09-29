@@ -3,9 +3,12 @@ SELECT
 	e.country,
 	e.YEAR,
 	e.gdp,
-	e.gini	
+	e.gini,
+	e.population
 FROM economies AS e 
 LEFT JOIN countries AS c 
  	ON e.country = c.country
-WHERE c.continent = 'Europe';
- 
+WHERE c.continent = 'Europe'
+AND e.gdp IS NOT NULL
+AND e.gini IS NOT NULL
+AND e.population IS NOT null;
