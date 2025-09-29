@@ -1,9 +1,4 @@
-SELECT *
-FROM czechia_price AS cp 
-WHERE date_part('year', cp.date_from) != date_part('year', cp.date_to)
- 
-
-CREATE TABLE IF NOT EXISTS t_Michaeala_Papadimitriu_Ludvikova_project_SQL_primary_final as
+CREATE TABLE IF NOT EXISTS t_Michaeala_Papadimitriu_Ludvikova_project_SQL_primary_final AS
 SELECT 
 	cpay.payroll_year AS YEAR,
 	cpib.name industry_branch,
@@ -17,7 +12,8 @@ JOIN czechia_payroll_industry_branch AS cpib
 	ON cpay.industry_branch_code = cpib.code 
 JOIN czechia_price_category AS cpc 
 	ON cpc.code = cp.category_code
-WHERE cpay.value_type_code = 5958
+WHERE cpay.value_type_code = 5958 
+	AND cpay.calculation_code = 200
 GROUP BY cpay.payroll_year, cpib.name, cpc.name
 
 
