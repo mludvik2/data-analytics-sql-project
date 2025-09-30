@@ -34,9 +34,16 @@ ORDER BY
 	YEAR ASC
 LIMIT 
 	25;
+	
+SELECT
+	min(YEAR),
+	max(YEAR)
+FROM
+	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf;
 
-
-
-
+SELECT
+	count(DISTINCT industry_branch)
+FROM
+	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf;
 
 
