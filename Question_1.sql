@@ -1,10 +1,4 @@
 SELECT
-	min(YEAR),
-	max(YEAR)
-FROM
-	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf;
-
-SELECT
 	industry_branch,
 	YEAR,
 	CASE 
