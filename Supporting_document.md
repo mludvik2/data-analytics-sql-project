@@ -4,7 +4,7 @@
 
 
 
-I choose to review data from all the years available, year by year, industry by industry, for years **2006 through to year 2018**. 
+I choose to review data from all the years available, year by year, industry by industry, for years **2006 through to year 2018**.
 
 I grouped them into the difference calculation to see if there was a increase or decrease from the current wage versus the previous wage using the LAG function.
 
@@ -28,4 +28,22 @@ An anomaly was found 19 industry branches that have a decline in wages usually o
 
 
 **2. Answer to question 2**
+
+
+
+in year 2006 you could buy 2 772,37liters of milk 
+
+in year 20018  you could buy 2862,5 liters of milk
+
+in year 2006 you could buy 2482,5 kg??? of bread
+
+in year 2018 you could buy 2340,40 kg??? of bread
+
+
+
+you could buy 90.13 liters more of milk
+
+you could buy 142.11 kg??? less of bread....if in pieces or kg???
+
+
 
