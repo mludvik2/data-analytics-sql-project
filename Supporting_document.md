@@ -29,21 +29,22 @@ An anomaly was found 19 industry branches that have a decline in wages usually o
 
 **2. Answer to question 2**
 
+**How much milk (liters) and bread (kilograms) can a person buy with the average wage comparing the first available year vs. the last available year?**
 
-
-in year 2006 you could buy 2 772,37liters of milk 
-
-in year 20018  you could buy 2862,5 liters of milk
-
-in year 2006 you could buy 2482,5 kg??? of bread
-
-in year 2018 you could buy 2340,40 kg??? of bread
+* in year 2006 you could buy 2 772,37 liters of milk
+* in year 20018  you could buy 2862,5 liters of milk
+* in year 2006 you could buy 2482,5kg of bread
+* in year 2018 you could buy 2340,4kg of bread
 
 
 
-you could buy 90.13 liters more of milk
+According to the data difference, you can buy *90.13 liters more of milk* and you can buy *142.11 kg less of bread*.
 
-you could buy 142.11 kg??? less of bread....if in pieces or kg???
+
+
+**3. Answer to question 3**
+
+
 
 
 
