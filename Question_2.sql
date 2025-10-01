@@ -8,10 +8,10 @@ FROM
 SELECT
 	ROUND(MAX(CASE WHEN t.YEAR = t2.first_year AND food_category LIKE '%Mléko%' 
                    THEN (avg_wage / avg_food_price)::NUMERIC 
-                   END), 2) AS milk_2006,
+                   END), 2) AS milk_1st_year,
 	ROUND(MAX(CASE WHEN t.YEAR = t2.last_year AND food_category LIKE '%Mléko%' 
                    THEN (avg_wage / avg_food_price)::NUMERIC 
-                   END), 2) AS milk_2018,
+                   END), 2) AS milk_last_year,
 	ROUND(
         (MAX(CASE WHEN t.YEAR = t2.last_year AND food_category LIKE '%Mléko%'
                   THEN (avg_wage / avg_food_price)::NUMERIC 
@@ -22,10 +22,10 @@ SELECT
     ) AS milk_diff,
 	ROUND(MAX(CASE WHEN t.YEAR = t2.first_year AND food_category LIKE '%Chléb%'
                    THEN (avg_wage / avg_food_price)::NUMERIC 
-                   END), 2) AS bread_2006,
+                   END), 2) AS bread_first_year,
 	ROUND(MAX(CASE WHEN t.YEAR = t2.last_year AND food_category LIKE '%Chléb%'
                    THEN (avg_wage / avg_food_price)::NUMERIC 
-                   END), 2) AS bread_2018,
+                   END), 2) AS bread_last_year,
 	ROUND(
         (MAX(CASE WHEN t.YEAR = t2.last_year AND food_category LIKE '%Chléb%'
                   THEN (avg_wage / avg_food_price)::NUMERIC 
