@@ -98,8 +98,7 @@ Link to SQL: [Question 3](https://github.com/mludvik2/data-analytics-sql-project
 5. join both tables 
 6. **average** the growth % across years for price and wage
 7. calculate the **difference** of food price growth (f) and wage growth (w), matching them by year
-
-8\. check which **year** would be filtered out
+8. check which **year** would be filtered out
 
 
 
