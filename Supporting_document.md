@@ -67,7 +67,7 @@ Link to SQL: [Question 2](https://github.com/mludvik2/data-analytics-sql-project
 *Steps*:
 
 1. **food growth** to get the average price per category/year
-2. **food growth calculation** to compute the year-on-year growth % for each category
+2. **food growth calculation** to calculate the year-on-year growth % for each category
 3. **average** the growth % across years
 4. **sort** the data
 
@@ -89,87 +89,33 @@ Link to SQL: [Question 3](https://github.com/mludvik2/data-analytics-sql-project
 
 
 
-Computes year-on-year growth for each food category (price\_growth\_perc).
+*Steps:*
+
+1. **food price growth** to get the average price per category/year
+2. **food price growth calculation** to calculate the year-on-year growth % for each category
+3. **wage growth** to get the average price per category/year
+4. **wage growth calculation** to calculate the year-on-year growth % for each category
+5. join both tables 
+6. **average** the growth % across years for price and wage
+7. calculate the **difference** of food price growth (f) and wage growth (w), matching them by year
+
+8\. check which **year** would be filtered out
 
 
 
-Computes year-on-year growth for each industry wage (wage\_growth\_perc).
+*My findings:*
+
+There was **no year** in which the growth of food prices was significantly (by more than 10%) higher than the growth of wages
 
 
 
-Aggregates both at the year level and compares them.
+Link to SQL: [Question 4](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_4.sql)
 
 
 
-The HAVING ensures you only get years where food price growth > wage growth by more than 10%.
-
-
-
-
-
-
-
-So this CTE block sets you up with two clean tables (food\_growth\_calc and wage\_growth\_calc) that you can now join and compare by year in the next query.
-
-food\_growth → averages food prices per category and year.
-
-
-
-food\_growth\_calc → calculates year-on-year % growth in food prices using LAG().
-
-
-
-wage\_growth → averages wages per industry and year.
-
-
-
-wage\_growth\_calc → calculates year-on-year % growth in wages using LAG().
+**5. Answer to question 5**
 
 
 
 
-
-join:
-
-We bring together food price growth (f) and wage growth (w), matching them by year.
-
-
-
-This way we can directly compare how fast prices and wages were growing in the same year.
-
-
-
-where:
-
-Removes the first year in the dataset for both wages and prices (since you can’t calculate growth without a previous value).
-
-
-
-aggregation:
-
-For each year, it calculates:
-
-
-
-average % growth of all food categories (avg\_food\_growth)
-
-
-
-average % growth of all wage industries (avg\_wage\_growth)
-
-
-
-We take the average because there are many food categories and industries, and we want a single comparable value for each year.
-
-
-
-having: 
-
-Keeps only the years where food prices grew more than 10% faster than wages.
-
-
-
-
-
-**link**
 
