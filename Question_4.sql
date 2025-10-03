@@ -49,14 +49,19 @@ SELECT
 	round(avg(f.price_growth_perc)::NUMERIC, 2) AS avg_price_perc,
 	round(avg(w.wage_growth_perc)::NUMERIC, 2) AS avg_wage_perc,
 	round((avg(f.price_growth_perc) - avg(w.wage_growth_perc)), 2) AS difference
-FROM food_growth_calc f
-JOIN wage_growth_calc w ON f.YEAR = w.YEAR 
+FROM
+	food_growth_calc f
+JOIN wage_growth_calc w ON
+	f.YEAR = w.YEAR
 WHERE 
-	f.previous_price IS NOT NULL AND w.previous_wage IS NOT null
+	f.previous_price IS NOT NULL
+	AND w.previous_wage IS NOT NULL
 GROUP BY
 	f.YEAR
---HAVING (avg(f.price_growth_perc) - avg(w.wage_growth_perc)) > 10
-ORDER BY difference desc, f.YEAR 	
+	--HAVING (avg(f.price_growth_perc) - avg(w.wage_growth_perc)) > 10
+ORDER BY
+	difference DESC,
+	f.YEAR
 
 
 
