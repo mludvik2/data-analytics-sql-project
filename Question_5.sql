@@ -1,0 +1,7 @@
+SELECT *
+FROM t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS prim_tab 
+JOIN t_michaela_papadimitriu_ludvikova_project_sql_secondary_final AS sec_tab
+	ON prim_tab.YEAR = sec_tab.YEAR 
+
+SELECT *
+FROM t_michaela_papadimitriu_ludvikova_project_sql_secondary_final AS tmplpssf
