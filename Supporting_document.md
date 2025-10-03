@@ -75,7 +75,7 @@ Link to SQL: [Question 2](https://github.com/mludvik2/data-analytics-sql-project
 
 *My findings:*
 
-The category that increases the slowest is **sugar**, which in fact did not increase but **decreased in price**, with an average year-on-year growth of **-1.92%.**"
+The category that increases the slowest is **granulated** **sugar**, which in fact did not increase but **decreased in price**, with an average year-on-year growth of **-1.92%.**"
 
 
 
