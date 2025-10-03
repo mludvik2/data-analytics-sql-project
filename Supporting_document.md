@@ -46,5 +46,29 @@ According to the data difference, you can buy *90.13 liters more of milk* and yo
 
 
 
+**Formula:** 
 
+
+
+food\_growth → get average price per category/year.
+
+
+
+food\_growth\_calc → compute year-on-year growth % for each category.
+
+
+
+Final SELECT → average the growth % across years, then sort ascending.
+
+
+
+LIMIT 1 → picks the slowest growing category.
+
+
+
+average growth percent = summarizes over the whole period by taking the average yearly growth per category. collapse all years into a single representative number per category → easy to rank slowest → fastest.it transforms many year-by-year growth values into one comparable measure for each category across the whole period.
+
+
+
+"The category that increases the slowest is sugar, which in fact did not increase but decreased in price, with an average year-on-year growth of -1.92%."
 
