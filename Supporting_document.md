@@ -46,7 +46,7 @@ Link to SQL: [Question 1](https://github.com/mludvik2/data-analytics-sql-project
 
 
 
-According to the data difference, you could buy *90.13 liters more of milk* and you could buy *142.11 kg lesAs of bread*.
+According to the data difference, you could buy *90.13 liters more of milk* and you could buy *142.11 kg less of bread*.
 
 
 
