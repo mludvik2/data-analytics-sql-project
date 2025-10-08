@@ -6,7 +6,7 @@ SELECT
 			(((gdp - LAG(gdp) OVER (PARTITION BY country ORDER BY YEAR))/
 			LAG(gdp) OVER (PARTITION BY country ORDER BY YEAR))* 100)::NUMERIC, 2) AS gdp_growth_perc
 FROM
-		t_michaela_papadimitriu_ludvikova_project_sql_secondary_final AS tmplpssf 
+		t_michaela_papadimitriu_ludvikova_project_sql_secondary_final AS tmplpssf
 WHERE 
 	country = 'Czech Republic'
 	),
@@ -15,7 +15,7 @@ SELECT
 	YEAR,
 	avg(avg_wage) AS avg_wage
 FROM
-	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf 
+	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf
 GROUP BY
 	YEAR
 ),
@@ -33,7 +33,7 @@ SELECT
 	YEAR,
 	avg(avg_food_price) AS avg_food_price
 FROM
-	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf 
+	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf
 GROUP BY
 	YEAR
 ),
@@ -59,13 +59,8 @@ LEFT JOIN food_growth f ON
 	g.YEAR = f.YEAR
 WHERE
 	g.gdp_growth_perc IS NOT NULL
+	AND w.wage_growth_perc IS NOT NULL
+	AND f.price_growth_perc IS NOT NULL
 ORDER BY
 	g.YEAR;
 
-
-SELECT *
-FROM t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf 
-
-SELECT *
-FROM t_michaela_papadimitriu_ludvikova_project_sql_secondary_final AS tmplpssf
-WHERE country = 'Czech Republic'

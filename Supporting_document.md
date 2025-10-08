@@ -95,7 +95,7 @@ Link to SQL: [Question 3](https://github.com/mludvik2/data-analytics-sql-project
 2. **food price growth calculation** to calculate the year-on-year growth % for each category
 3. **wage growth** to get the average price per category/year
 4. **wage growth calculation** to calculate the year-on-year growth % for each category
-5. join both tables 
+5. join both tables
 6. **average** the growth % across years for price and wage
 7. calculate the **difference** of food price growth (f) and wage growth (w), matching them by year
 8. check which **year** would be filtered out
@@ -113,6 +113,21 @@ Link to SQL: [Question 4](https://github.com/mludvik2/data-analytics-sql-project
 
 
 **5. Answer to question 5**
+
+*Does the level of GDP influence changes in wages and food prices? In other words, if GDP rises significantly in a given year, does this result in noticeably higher growth in wages or food prices in the same or following year?*
+
+
+
+*My findings:*
+
+1. When **GDP grows, wages usually grow too,** sometimes with a small delay (approx. one year)
+2. When **GDP falls, wages slow down** or even decrease  (eg. 2009-2010)
+3. Food prices do not clearly follow GDP:
+
+* &nbsp;	sometimes they increase even when GDP falls (eg. 2012-2013)
+* &nbsp;	this means food prices depend more on other factors
+
+
 
 
 
