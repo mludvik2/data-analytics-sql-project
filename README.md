@@ -1,6 +1,6 @@
 **SQL project - Food Prices and Wages Analysis**
 
-*Author*: Michaela Papadimitriu Ludvikova
+***Author***: Michaela Papadimitriu Ludvikova
 
 
 
@@ -12,41 +12,28 @@ This project **analyzes trends in wages and food prices** in the Czech Republic 
 
 
 
-*Structure and links:*
+**Overview:**
 
-1. [SQL primary table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Primary_table.sql):
-   wage and food price data for the Czech Republic, aligned for common years.
-2. [SQL secondary table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Secondary_table.sql):
-   additional data on other European countries including GPD
-3. Script for [question number 1](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_1.sql)
-4. Script for [question number 2](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_2.sql)
-5. Script for [question number 3](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_3.sql)
-6. Script for [question number 4](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_4.sql)
-7. Script for [question number 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
+* *Primary SQL table:* Wage and food price data for the Czech Republic, aligned for common years. [View table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Primary_table.sql)
+* *Secondary SQL table*: Additional data on other European countries including GPD. [View table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Secondary_table.sql)
+* *SQL scripts*:
 
-
-
-The answers to the 5 questions can be found with my findings in: [Supporting document](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Supporting_document.md)
+1. Analysis of wage trends by industry
+2. Purchasing power of milk and bread
+3. Slowest growing food categories
+4. Years when food price growth exceeded wage growth
+5. GDP growth effect on wages and food prices
 
 
 
-*Tables used:*
-
-⦁	czechia\_payroll
-
-⦁	czechia\_price
-
-⦁	czechia\_payroll\_industry\_branch
-
-⦁	czechia\_price\_category
+*Supporting document*: Contains detailed findings and answers to all five research questions.
 
 
 
-*Additional tables used:*
+*Data sources:*
 
-⦁	economies
-
-⦁	countries
+* *Primary tables:* czechia\_payroll, czechia\_price, czechia\_payroll\_industry\_branch, czechia\_price\_category
+* *Additional tables*: economies, countries
 
 
 
