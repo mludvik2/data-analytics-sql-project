@@ -129,6 +129,10 @@ Link to SQL: [Question 4](https://github.com/mludvik2/data-analytics-sql-project
 
 
 
+Link to SQL: [Question 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
+
+
+
 
 
 
