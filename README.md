@@ -1,13 +1,14 @@
-**SQL project**
+**SQL project - Food Prices and Wages Analysis**
 
-
-Author: Michaela Papadimitriu Ludvikova
+*Author*: Michaela Papadimitriu Ludvikova
 
 
 
 Dear Viewer,
 
-This is my own project working with SQL.
+
+
+This project analyzes trends in wages and food prices in the Czech Republic (questions 1 -4) and in question 5, GDP growth influence with wage and food price changes.
 
 
 
@@ -38,6 +39,4 @@ links
 
 
 graphs used plus add explanation
-
-
 
