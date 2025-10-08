@@ -1,4 +1,4 @@
-1. **Answer to question 1**
+**1. Answer to question 1**
 
 *Do wages increase in all industry branches over the years or some decrease?*
 
@@ -124,16 +124,10 @@ Link to SQL: [Question 4](https://github.com/mludvik2/data-analytics-sql-project
 2. When **GDP falls, wages slow down** or even decrease  (eg. 2009-2010)
 3. Food prices do not clearly follow GDP:
 
-* &nbsp;	sometimes they increase even when GDP falls (eg. 2012-2013)
-* &nbsp;	this means food prices depend more on other factors
+*  	sometimes they increase even when GDP falls (eg. 2012-2013)
+*  	this means food prices depend more on other factors
 
 
 
 Link to SQL: [Question 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
-
-
-
-
-
-
 
