@@ -7,8 +7,8 @@ SELECT
 			LAG(gdp) OVER (PARTITION BY country ORDER BY YEAR))* 100)::NUMERIC, 2) AS gdp_growth_perc
 FROM
 		t_michaela_papadimitriu_ludvikova_project_sql_secondary_final AS tmplpssf 
-WHERE
-	country = 'Czechia'
+WHERE 
+	country = 'Czech Republic'
 	),
 avg_wages AS (
 SELECT
@@ -61,3 +61,11 @@ WHERE
 	g.gdp_growth_perc IS NOT NULL
 ORDER BY
 	g.YEAR;
+
+
+SELECT *
+FROM t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf 
+
+SELECT *
+FROM t_michaela_papadimitriu_ludvikova_project_sql_secondary_final AS tmplpssf
+WHERE country = 'Czech Republic'
