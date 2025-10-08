@@ -34,7 +34,7 @@ This project **analyzes trends in wages and food prices** in the Czech Republic 
 
 
 
-The answers to the 5 question can be found with my finding in: [Supporting document](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Supporting_document.md)
+The answers to the 5 question can be found with my findings in: [Supporting document](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Supporting_document.md)
 
 
 
@@ -48,9 +48,9 @@ The answers to the 5 question can be found with my finding in: [Supporting docum
 
 ⦁	czechia\_price\_category
 
-⦁	czechia\_value\_type\_code
 
-⦁	
+
+*Additional tables used:*
 
 ⦁	economies
 
