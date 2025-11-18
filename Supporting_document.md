@@ -1,6 +1,6 @@
-**1. Answer to question 1**
+## 1. Answer to question 1
 
-*Do wages increase in all industry branches over the years or some decrease?*
+** Do wages increase in all industry branches over the years or some decrease?** 
 
 I chose to review data from all the years available, year by year, industry by industry, for years **2006 through to year 2018**.
 
@@ -18,9 +18,9 @@ An anomaly was found that there were 19 industry branches that have a decline in
 
 Link to SQL: [Question 1](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_1.sql)
 
-**2. Answer to question 2**
+## 2. Answer to question 2
 
-*How much milk (liters) and bread (kilograms) can a person buy with the average wage comparing the first available year vs. the last available year?*
+** How much milk (liters) and bread (kilograms) can a person buy with the average wage comparing the first available year vs. the last available year?** 
 
 *My findings:*
 - in year **2006** you could buy **2 772,37 liters of milk**
@@ -32,9 +32,9 @@ According to the data difference, you could buy *90.13 liters more of milk* and 
 
 Link to SQL: [Question 2](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_2.sql)
 
-**3. Answer to question 3**
+## 3. Answer to question 3
 
-*Which food category has the slowest long-term growth (the lowest average year-on-year % increase)?*
+** Which food category has the slowest long-term growth (the lowest average year-on-year % increase)?** 
 
 **Formula:** Growth rate = ((price - previous price)/previous price) x 100
 
@@ -50,8 +50,8 @@ The category that increases the slowest is **granulated sugar**, which in fact d
 
 Link to SQL: [Question 3](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_3.sql)
 
-**4. Answer to question 4**
-*Is there a year in which the growth of food prices was significantly (by more than 10%) higher than the growth of wages?*
+## 4. Answer to question 4
+** Is there a year in which the growth of food prices was significantly (by more than 10%) higher than the growth of wages?** 
 
 *Steps:*
 
@@ -70,9 +70,9 @@ There was **no year** in which the growth of food prices was significantly (by m
 
 Link to SQL: [Question 4](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_4.sql)
 
-**5. Answer to question 5**
+## 5. Answer to question 5
 
-*Does the level of GDP influence changes in wages and food prices? In other words, if GDP rises significantly in a given year, does this result in noticeably higher growth in wages or food prices in the same or following year?*
+** Does the level of GDP influence changes in wages and food prices? In other words, if GDP rises significantly in a given year, does this result in noticeably higher growth in wages or food prices in the same or following year?** 
 
 *My findings:*
 
