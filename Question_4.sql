@@ -1,8 +1,8 @@
 WITH food_growth AS (
 SELECT 
-		food_category,
-		YEAR,
-		round(avg(avg_food_price)::NUMERIC, 2) AS price
+	food_category,
+	YEAR,
+	round(avg(avg_food_price)::NUMERIC, 2) AS price
 FROM
 	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf
 GROUP BY
@@ -23,9 +23,9 @@ FROM
 ),
 wage_growth AS (
 SELECT 
-		industry_branch,
-		YEAR,
-		round(avg(avg_wage)::NUMERIC, 2) AS wage
+	industry_branch,
+	YEAR,
+	round(avg(avg_wage)::NUMERIC, 2) AS wage
 FROM
 	t_michaeala_papadimitriu_ludvikova_project_sql_primary_final AS tmplpspf
 GROUP BY
