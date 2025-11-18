@@ -80,8 +80,8 @@ There was **no year** in which the growth of food prices was significantly (by m
 2. When **GDP falls, wages slow down** or even decrease  (eg. 2009-2010)
 3. Food prices do not clearly follow GDP:
 
-  * sometimes they increase even when GDP falls (eg. 2012-2013)
-  *	this means food prices depend more on other factors
+-    sometimes they increase even when GDP falls (eg. 2012-2013)
+-    this means food prices depend more on other factors
 
 *Link to SQL:* [Question 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
 
