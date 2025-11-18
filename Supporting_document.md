@@ -8,7 +8,7 @@ I grouped them into the difference calculation to see if there was a increase or
 
 **My findings:**
 
-There were *25 occurrences* where the wages declined that show that not all industry branches increased over this period.
+There were **25 occurrences** where the wages declined that show that not all industry branches increased over this period.
 
 Of the 19 industry branches:
 - the wage trend in **16** industry branches declined
@@ -16,7 +16,7 @@ Of the 19 industry branches:
 
 An anomaly was found that there were 19 industry branches that have a decline in wages, usually occurred in the **year 2013**.
 
-Link to SQL: [Question 1](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_1.sql)
+*Link to SQL:* [Question 1](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_1.sql)
 
 ## 2. Answer to question 2
 
@@ -30,7 +30,7 @@ Link to SQL: [Question 1](https://github.com/mludvik2/data-analytics-sql-project
 
 According to the data difference, you could buy *90.13 liters more of milk* and you could buy *142.11 kg less of bread*.
 
-Link to SQL: [Question 2](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_2.sql)
+*Link to SQL:* [Question 2](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_2.sql)
 
 ## 3. Answer to question 3
 
@@ -48,7 +48,7 @@ Link to SQL: [Question 2](https://github.com/mludvik2/data-analytics-sql-project
 **My findings:**
 The category that increases the slowest is **granulated sugar**, which in fact did not increase but **decreased in price**, with an average year-on-year growth of **-1.92%.**"
 
-Link to SQL: [Question 3](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_3.sql)
+*Link to SQL:* [Question 3](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_3.sql)
 
 ## 4. Answer to question 4
 **Is there a year in which the growth of food prices was significantly (by more than 10%) higher than the growth of wages?** 
@@ -68,7 +68,7 @@ Link to SQL: [Question 3](https://github.com/mludvik2/data-analytics-sql-project
 
 There was **no year** in which the growth of food prices was significantly (by more than 10%) higher than the growth of wages
 
-Link to SQL: [Question 4](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_4.sql)
+*Link to SQL:* [Question 4](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_4.sql)
 
 ## 5. Answer to question 5
 
@@ -80,8 +80,8 @@ Link to SQL: [Question 4](https://github.com/mludvik2/data-analytics-sql-project
 2. When **GDP falls, wages slow down** or even decrease  (eg. 2009-2010)
 3. Food prices do not clearly follow GDP:
 
-*  	sometimes they increase even when GDP falls (eg. 2012-2013)
-*  	this means food prices depend more on other factors
+  * sometimes they increase even when GDP falls (eg. 2012-2013)
+  *	this means food prices depend more on other factors
 
-Link to SQL: [Question 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
+*Link to SQL:* [Question 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
 
