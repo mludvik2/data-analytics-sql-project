@@ -1,5 +1,5 @@
 # SQL project - Food Prices and Wages Analysis
-**Author:** Michaela Papadimitriu Ludvikova
+**Author:** Michaela Papadimitriu Ludvikova  
 **GitHub:** Link to [Github](https://github.com/mludvik2/data-analytics-sql-project/blob/main/README.md)
 
 Dear Viewer,
@@ -9,19 +9,24 @@ This project analyzes **trends in wages and food prices** in the Czech Republic 
 ## Overview:
 
 **Primary SQL table:**  
-1. Wage and food price data for the Czech Republic, aligned for common years. 
-2. [View table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Primary_table.sql)
+- Wage and food price data for the Czech Republic, aligned for common years. 
+- [View table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Primary_table.sql)
 
 **Secondary SQL table:**  
-1. Additional data on other European countries including GPD. 
-2. [View table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Secondary_table.sql)
+- Additional data on other European countries including GPD. 
+- [View table](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Secondary_table.sql)
 
 ## SQL scripts:
-1. Analysis of wage trends by industry.  [Link to script 1](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_1.sql)
-2. Purchasing power of milk and bread. [Link to script 2](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_2.sql)
-3. Slowest growing food categories. [Link to script 3](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_3.sql)
-4. Years when food price growth exceeded wage growth. [Link to script 4](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_4.sql)
-5. GDP growth effect on wages and food prices. [Link to script 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
+1. Analysis of wage trends by industry.  
+- [Link to script 1](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_1.sql)
+2. Purchasing power of milk and bread. 
+- [Link to script 2](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_2.sql)
+3. Slowest growing food categories. 
+- [Link to script 3](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_3.sql)
+4. Years when food price growth exceeded wage growth. 
+- [Link to script 4](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_4.sql)
+5. GDP growth effect on wages and food prices. 
+- [Link to script 5](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Question_5.sql)
 
 **Supporting document:** Contains detailed findings and answers to all five research questions. [Link to Supporting document](https://github.com/mludvik2/data-analytics-sql-project/blob/main/Supporting_document.md)
 
