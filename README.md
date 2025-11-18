@@ -1,9 +1,8 @@
-\# SQL project - Food Prices and Wages Analysis
+# SQL project - Food Prices and Wages Analysis
 
-\*\*Author:\*\* Michaela Papadimitriu Ludvikova
+**Author:** Michaela Papadimitriu Ludvikova
 
-\*\*GitHub:\*\* Link to \[Github](https://github.com/mludvik2/data-analytics-sql-project/blob/main/README.md)
-
+**GitHub:** Link to [Github](https://github.com/mludvik2/data-analytics-sql-project/blob/main/README.md)
 
 
 Dear Viewer,
